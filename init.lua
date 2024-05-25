@@ -150,7 +150,10 @@ vim.opt.inccommand = 'split'
 
 -- Show which line your cursor is on
 vim.opt.cursorline = true
-
+---------------------------------------------------------------------
+-- Make cursor blink in normal mode and change shape to vertical line. (My addition)
+vim.opt.guicursor = ('a:ver30-blinkon150')
+-----------------------------------------------------------------------
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
