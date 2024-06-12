@@ -1,3 +1,18 @@
+-----------------------------------------------------------------------
+-- My additions:
+-- Make cursor blink and change shape to vertical line.
+vim.opt.guicursor = 'a:ver30-blinkon150'
+
+vim.opt.termguicolors = true
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.shiftwidth = 4
+vim.opt.smartindent = true
+vim.opt.expandtab = true
+vim.opt.wrap = false
+
+-----------------------------------------------------------------------
+
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
@@ -64,20 +79,6 @@ vim.opt.inccommand = 'split'
 
 -- Show which line your cursor is on
 vim.opt.cursorline = true
----------------------------------------------------------------------
--- My additions:
--- Make cursor blink and change shape to vertical line.
-vim.opt.guicursor = 'a:ver30-blinkon150'
-
-vim.opt.termguicolors = true
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.shiftwidth = 4
-vim.opt.smartindent = true
-vim.opt.expandtab = true
-vim.opt.wrap = false
-
------------------------------------------------------------------------
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
